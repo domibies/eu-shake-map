@@ -128,6 +128,7 @@ def index():
         <p>Data source: <a href="{USGS_URL}">INGV FDSN API (Europe box, last 7 days)</a>.</p>
         <p style=font-size:0.9em;color:#555;>Fetched locally at: {fetch_local}</p>
         <img src="data:image/png;base64,{b64}" style="max-width:100%; height:auto; border:1px solid #ccc; box-shadow: 0 1px 4px rgba(0,0,0,.1)" />
+        <p style="margin-top:12px;font-size:0.9em;"><a href="https://github.com/domibies/eu-shake-map">GitHub repository</a></p>
       </body>
     </html>
     """

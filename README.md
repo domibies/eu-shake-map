@@ -8,10 +8,16 @@ Quick start
   uv run python app.py
   ```
   Then open http://127.0.0.1:8000/
-- Docker:
+- Docker (build locally):
   ```
   docker build -t eu-shake-map:dev .
   docker run --rm -p 8000:8000 eu-shake-map:dev
+  ```
+- Docker (pull from GHCR after CI push):
+  ```
+  docker pull ghcr.io/domibies/eu-shake-map:latest
+  docker run --rm -p 8000:8000 ghcr.io/domibies/eu-shake-map:latest
+  # Then open http://127.0.0.1:8000/
   ```
 
 Endpoints
