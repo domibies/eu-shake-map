@@ -1,0 +1,14 @@
+Error 400: Bad Request
+
+invalid value in parameter: format
+
+Usage details are available from /fdsnws/event/1/
+
+Request:
+/fdsnws/event/1/query?format=geojson&minlatitude=45&maxlatitude=55&minlongitude=-1&maxlongitude=10&starttime=2025-07-01&endtime=2025-11-19&minmagnitude=0
+
+Request Submitted:
+2025-11-19T06:51:21.457289
+
+Service Version:
+1.2.6

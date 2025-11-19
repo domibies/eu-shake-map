@@ -1,0 +1,21 @@
+# VCS and CI
+.git
+.github
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+*.log
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Local env
+.env
